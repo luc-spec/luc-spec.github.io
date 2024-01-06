@@ -1,0 +1,4 @@
+baseURL = 'https://luc-spec.github.io/'
+languageCode = 'en-us'
+title = "Spec'd Out"
+theme = 'hugo-PaperMod'
