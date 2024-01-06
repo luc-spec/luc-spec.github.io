@@ -1,7 +1,7 @@
 +++
 title = '20240105 Android, Nix, and Even Some Education'
 date = 2024-01-05T22:11:49-07:00
-draft = true
+draft = false
 +++
 
 I came across [this guide](https://gadgetbridge.org/internals/development/setup-environment/#installing-dependencies) that lays out how to start contributing to Gadgetbridge.

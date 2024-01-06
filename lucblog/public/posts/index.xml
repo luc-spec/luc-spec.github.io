@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Spec&#39;d Out</title>
+    <link>https://luc-spec.github.io/posts/</link>
+    <description>Recent content in Posts on Spec&#39;d Out</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Jan 2024 22:11:49 -0700</lastBuildDate>
+    <atom:link href="https://luc-spec.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>20240105 Android, Nix, and Even Some Education</title>
+      <link>https://luc-spec.github.io/posts/20240105-android-nix/</link>
+      <pubDate>Fri, 05 Jan 2024 22:11:49 -0700</pubDate>
+      <guid>https://luc-spec.github.io/posts/20240105-android-nix/</guid>
+      <description>I came across this guide that lays out how to start contributing to Gadgetbridge.
+It&amp;rsquo;s not Nix, it&amp;rsquo;s me Since I&amp;rsquo;m in the mode of playing around with shell.nix files, I immediately jumped to creating one for this project.
+{ pkgs ? import &amp;lt;nixpkgs&amp;gt; {} }: pkgs.mkShell { # nativeBuildInputs is usually what you want -- tools you need to run nativeBuildInputs = with pkgs.buildPackages; [ #android-studio androidStudioPackages.dev git openjdk17-bootstrap gradle_7 ]; } A quick switch, and we&amp;rsquo;re off to the races, right?</description>
+    </item>
+  </channel>
+</rss>
