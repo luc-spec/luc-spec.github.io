@@ -1,5 +1,5 @@
 +++
-title = '20240105 Android, Nix, and Even Some Education'
+title = 'Android Nix Shell Trial and Error'
 date = 2024-01-05T22:11:49-07:00
 draft = false
 +++
